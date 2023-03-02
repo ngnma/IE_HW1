@@ -1,3 +1,51 @@
 * {
+  background-color: #E4E6EB;
+}
+
+div {
+  background-color: #FFFFFF;
+  border-style: solid;
+}
+
+.flex-container {
+  display: flex;
+  flex-flow: column wrap;
+}
+
+#left {
   background-color: #FFB400;
+  Width: 23%;
+  Height: 1315px;
+  float: left;
+}
+
+#right {
+  Width: 73%;
+  border-style: solid;
+  float: right;
+}
+
+#main {
+  background-color: #FFFFFF;
+  Height: 532px;
+  margin: 2%;
+  margin-top: 0px;
+}
+
+#services {
+  background-color: #767676;
+  Height: 726px;
+  margin: 2%;
+}
+
+#educations {
+  background-color: #FFFFFF;
+  Height: 726px;
+  margin: 2%;
+}
+
+#history {
+  background-color: #FFB400;
+  Height: 726px;
+  margin: 2%;
 }/*# sourceMappingURL=style.css.map */
