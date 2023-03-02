@@ -1,9 +1,8 @@
 * {
-  background-color: #E4E6EB;
+  background-color: #F0F0F6;
 }
 
 div {
-  background-color: #3A3B3C;
   border-style: solid;
 }
 
@@ -20,14 +19,12 @@ div {
 }
 
 #main {
-  background-color: #FFFFFF;
   Height: 532px;
   margin: 2%;
   margin-top: 0px;
 }
 
 #services {
-  background-color: #767676;
   Height: 726px;
   margin: 2%;
   display: flex;
@@ -35,7 +32,6 @@ div {
 }
 
 #services-top {
-  background-color: #F0F0F6;
   Height: 35%;
   border-style: none;
   display: flex;
@@ -45,19 +41,28 @@ div {
 }
 
 #services-bottom {
-  background-color: #FFFFFF;
   Height: 65%;
   border-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  overflow: scroll;
+  justify-content: center;
+}
+
+.sub-service {
+  background-color: #FFB400;
+  border-style: none;
+  width: 310px;
+  height: 225px;
+  margin: 3px;
 }
 
 #educations {
-  background-color: #FFFFFF;
   Height: 726px;
   margin: 2%;
 }
 
 #history {
-  background-color: #FFB400;
   Height: 726px;
   margin: 2%;
 }

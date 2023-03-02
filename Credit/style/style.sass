@@ -1,17 +1,15 @@
 @import "Variables"
 
 *
-    background-color: $DarkSilver
+    background-color: $Silver
+
 div
-    background-color: $Gray
     border-style: solid
 
 .flex-container
     display: flex
     flex-flow: column wrap
-    //align-items: stretch
-    //align-content: space-between
-    //overflow: scroll
+
 #left
     background-color: $Orange
     Width: 23%
@@ -19,20 +17,17 @@ div
     float: left
 
 #main
-    background-color: $Wight
     Height: 532px
     margin: 2%
     margin-top: 0px
    
 #services
-    background-color: $LightGray
     Height: 726px
     margin: 2%
     display: flex
     flex-direction: column
 
 #services-top
-    background-color: $Silver
     Height: 35%
     border-style: none
     display: flex
@@ -41,17 +36,26 @@ div
     align-items: center
 
 #services-bottom
-    background-color: $Wight
     Height: 65%
     border-style: none   
+    display: flex
+    flex-wrap: wrap
+    overflow: scroll
+    justify-content: center
+  
+
+.sub-service
+    background-color: $Orange
+    border-style: none
+    width: 310px
+    height: 225px
+    margin: 3px
 
 #educations
-    background-color: $Wight
     Height: 726px
     margin: 2%
 
 #history
-    background-color: $Orange
     Height: 726px
     margin: 2%
 
