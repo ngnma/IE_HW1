@@ -3,7 +3,7 @@
 }
 
 div {
-  background-color: #FFFFFF;
+  background-color: #3A3B3C;
   border-style: solid;
 }
 
@@ -19,12 +19,6 @@ div {
   float: left;
 }
 
-#right {
-  Width: 73%;
-  border-style: solid;
-  float: right;
-}
-
 #main {
   background-color: #FFFFFF;
   Height: 532px;
@@ -36,6 +30,24 @@ div {
   background-color: #767676;
   Height: 726px;
   margin: 2%;
+  display: flex;
+  flex-direction: column;
+}
+
+#services-top {
+  background-color: #F0F0F6;
+  Height: 35%;
+  border-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#services-bottom {
+  background-color: #FFFFFF;
+  Height: 65%;
+  border-style: none;
 }
 
 #educations {
@@ -48,4 +60,21 @@ div {
   background-color: #FFB400;
   Height: 726px;
   margin: 2%;
+}
+
+.title-text {
+  text-align: center;
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 40px;
+}
+
+.description-text {
+  text-align: center;
+  font-family: Inter;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  width: 45%;
 }/*# sourceMappingURL=style.css.map */
