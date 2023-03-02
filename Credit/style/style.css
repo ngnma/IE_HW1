@@ -27,7 +27,7 @@ div {
   flex-direction: column;
 }
 
-#services-top {
+.services-top {
   border-style: none;
   display: flex;
   flex-direction: column;
