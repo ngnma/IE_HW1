@@ -1,9 +1,6 @@
-* {
-  background-color: #F0F0F6;
-}
-
 div {
   border-style: solid;
+  background-color: #F0F0F6;
 }
 
 .flex-container {
@@ -25,36 +22,68 @@ div {
 }
 
 #services {
-  Height: 726px;
   margin: 2%;
   display: flex;
   flex-direction: column;
 }
 
 #services-top {
-  Height: 35%;
   border-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10%;
+}
+
+#services-bottom {
+  border-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.sub-service {
+  background-color: #FFFFFF;
+  border-style: none;
+  width: 310px;
+  height: 225px;
+  margin: 3px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-#services-bottom {
-  Height: 65%;
-  border-style: none;
-  display: flex;
-  flex-wrap: wrap;
-  overflow: scroll;
-  justify-content: center;
+.service-box-title {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: 10px;
 }
 
-.sub-service {
-  background-color: #FFB400;
-  border-style: none;
-  width: 310px;
-  height: 225px;
-  margin: 3px;
+.service-box-description {
+  font-family: Inter;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #767676;
+  margin: 5px;
+}
+
+#order-text {
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 14px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #FFB400;
 }
 
 #educations {
