@@ -11,13 +11,6 @@ div {
   flex-flow: column wrap;
 }
 
-#left {
-  background-color: #FFFFFF;
-  Width: 23%;
-  Height: 1315px;
-  float: left;
-}
-
 #services {
   margin: 2%;
   display: flex;
@@ -225,4 +218,22 @@ div {
   margin-left: 6%;
   margin-top: 5%;
   padding-top: 3%;
+}
+
+#left {
+  background-color: #FFFFFF;
+  Width: 23%;
+  Height: 1315px;
+  float: left;
+  display: flex;
+  flex-direction: column;
+}
+
+#left > img {
+  height: 150px;
+  width: 150px;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 30%;
+  border-radius: 100px;
 }/*# sourceMappingURL=style.css.map */
