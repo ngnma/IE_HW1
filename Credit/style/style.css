@@ -1,24 +1,14 @@
+body {
+  background-color: #F0F0F6;
+}
+
 div {
-  border-style: solid;
   background-color: #F0F0F6;
 }
 
 .flex-container {
   display: flex;
   flex-flow: column wrap;
-}
-
-#left {
-  background-color: #FFB400;
-  Width: 23%;
-  Height: 1315px;
-  float: left;
-}
-
-#main {
-  Height: 532px;
-  margin: 2%;
-  margin-top: 0px;
 }
 
 #services {
@@ -170,4 +160,80 @@ div {
   font-size: 15px;
   margin: 10px;
   margin-left: 30px;
+}
+
+#main {
+  Height: 532px;
+  margin: 2%;
+  margin-top: 0px;
+  background-color: #FFFFFF;
+  display: flex;
+  flex-direction: row;
+}
+
+#my-img {
+  width: 45%;
+  height: 100%;
+}
+
+#name {
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 59px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding-left: 6%;
+}
+
+#span-data {
+  color: #FFB400;
+}
+
+#description {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #767676;
+  padding-left: 6%;
+  padding-top: 5%;
+}
+
+#main-data {
+  display: flex;
+  flex-direction: column;
+  border-style: none;
+  justify-content: center;
+  background-color: #FFFFFF;
+}
+
+#btn {
+  background-color: #FFB400;
+  width: 25%;
+  height: 7%;
+  text-align: center;
+  margin-left: 6%;
+  margin-top: 5%;
+  padding-top: 3%;
+}
+
+#left {
+  background-color: #FFFFFF;
+  Width: 23%;
+  Height: 1315px;
+  float: left;
+  display: flex;
+  flex-direction: column;
+}
+
+#left > img {
+  height: 150px;
+  width: 150px;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 30%;
+  border-radius: 100px;
 }/*# sourceMappingURL=style.css.map */
