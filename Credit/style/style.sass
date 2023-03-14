@@ -1,4 +1,347 @@
 @import "Variables"
 
-*
+body
+    background-color: $Silver
+
+div
+    //border-style: solid
+    //background-color: $Silver
+
+.flex-container
+    display: flex
+    flex-flow: column wrap
+   
+#services
+    //Height: 726px
+    margin: 2%
+    display: flex
+    flex-direction: column
+
+.services-top
+    border-style: none
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    margin: 75px
+
+#services-bottom
+    border-style: none   
+    display: flex
+    flex-wrap: wrap
+    justify-content: center
+  
+
+.sub-service
+    background-color: $Wight
+    border-style: none
+    width: 310px
+    height: 225px
+    margin: 3px
+
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+
+.service-box-title
+    font-family: Inter
+    font-size: 18px
+    font-weight: 500
+    line-height: 22px
+    letter-spacing: 0em
+    text-align: left
+    margin-top: 10px
+
+.service-box-description
+    font-family: Inter
+    font-size: 15px
+    font-weight: 400
+    line-height: 24px
+    letter-spacing: 0em
+    text-align: center
+    color: $LightGray
+    margin: 5px
+
+#order-text
+    font-family: Roboto
+    font-size: 12px
+    font-weight: 700
+    line-height: 14px
+    letter-spacing: 0em
+    text-align: left
+    color: $Orange
+
+.title-text
+    text-align: center
+    font-family: Inter
+    font-size: 32px
+    font-weight: 700
+    line-height: 40px
+
+.description-text
+    text-align: center
+    font-family: Inter
+    font-size: 15px
+    font-weight: 400
+    line-height: 24px
+    width: 45%
+//educations & History
+
+
+.outer-part
+    //Height: 726px
+    margin: 2%
+
+.inner-part
+    display: flex
+    flex-direction: column
+    background-color: $Wight
+
+.inner-part > div
+    height: 208px
+    display: flex
+    align-items: stretch
+
+.gray-line2
+    height:2px !important
+    width: 80% !important
+    margin-left: 10% !important
+    background-color: $Silver !important 
+
+.left-part
+    background-color: $Wight
+    width: 30%
+    display: flex
+    flex-direction: column
+    justify-content: center
+
+.left-part-duration
+    margin-left: 10px
     background-color: $Orange
+    color: $Wight
+
+    font-family: Inter
+    font-size: 10px
+    font-weight: 400
+    line-height: 10px
+    letter-spacing: 0em
+    text-align: left
+    padding: 2px
+
+
+.right-part
+    background-color: $Wight
+    width: 70%
+    display: flex
+    flex-direction: column
+    justify-content: center
+
+
+.right-part-title
+    font-family: Inter
+    font-size: 18px
+    font-weight: 500
+    line-height: 22px
+    letter-spacing: 0em
+    text-align: left
+    color: $Black
+    margin: 10px
+    margin-left: 30px
+    background-color: $Wight
+
+.inner-part div
+    border-style: none
+    background-color: $Wight
+
+
+
+.right-part-description
+    color: $LightGray
+    font-size: 15px
+    margin: 10px
+    margin-left: 30px
+
+//main menu
+
+#main
+    Height: 532px
+    margin: 2%
+    margin-top: 0px
+    background-color: $Wight
+    display: flex
+    flex-direction: row
+
+#my-img
+    width:45%
+    //height:auto
+    height: 100%
+    //float: right
+ 
+#name
+    font-family: Inter
+    font-size: 48px
+    font-weight: 700
+    line-height: 59px
+    letter-spacing: 0em
+    text-align: left
+    padding-left: 6%
+    
+
+#span-data
+    color: $Orange
+
+#description
+    font-family: Inter
+    font-size: 16px
+    font-weight: 400
+    line-height: 24px
+    letter-spacing: 0em
+    text-align: left
+    color: $LightGray
+    padding-left: 6%
+    padding-top: 5%
+
+
+#main-data
+    display: flex
+    flex-direction: column
+    border-style: none
+    justify-content: center
+    background-color: $Wight
+
+#btn //it was hire me button witch i created
+    background-color: $Orange
+    width: 25%
+    height: 7%
+    text-align: center
+    margin-left: 6%
+    margin-top: 5%
+    padding-top: 3%
+
+#hireme
+    width: 25%
+    height: 10%
+    margin-left: 6%
+    margin-top: 5%
+
+//left menu
+#left
+    background-color: $Wight
+    Width: 23%
+    //Height: 1315px
+    float: left
+    display: flex
+    flex-direction: column
+
+#profile
+    margin-left: 25%
+    margin-right: 25%
+    margin-top: 30%
+    
+
+.socials-container
+    width: 80%
+    margin: 10%
+    display: flex
+    direction: row
+    justify-content: center
+    flex-wrap: wrap
+    justify-content: space-between
+    
+
+.socials-item
+    width: 20px
+    height: 20px
+    padding: 2%
+    margin: 1%
+    background-color:$Orange
+    border-radius: 50%
+
+.socials-item > img
+    justify-content: center
+    padding: auto
+    align-items: center
+    margin: 5px 5px
+
+.info-container
+    display: flex
+    flex-direction: column
+
+.info-item
+    width: 80%
+    margin-left: 10%
+    margin-top: 4%
+    display: flex
+    flex-direction: row
+    justify-content: space-between
+    
+.info-type
+    background-color: $Orange
+    padding:1%
+
+.info-value
+    padding:1%
+
+#green-text
+    padding:1%
+    color: #7EB942
+
+.gray-line
+    height:2px
+    width: 80%
+    margin-top: 5%
+    margin-bottom: 5%
+    margin-left: 10%
+    background-color: $Silver
+
+.silver-text
+    padding: 1%
+    font-size: 15px
+    color: $LightGray
+
+.info-topic
+    font-size: 18px
+    margin-left: 10%
+    
+.info-item2
+    width: 80%
+    margin-left: 10%
+    margin-top: 4%
+    display: flex
+    flex-direction: row
+    justify-content: flex-start
+
+.skills-value
+    font-size: 15px
+    color: $LightGray
+    margin-left:8%
+    
+#cvi 
+    width: 80%
+    margin-left: 10%
+    margin-bottom: 10%
+
+#name-left
+    font-size: 18px
+    margin: auto
+    margin-top: 3%
+
+#description-left
+    font-size: 15px
+    margin: auto
+    margin-top: 3%
+    color: $LightGray
+
+    
+
+
+
+    
+
+
+    
+    
+
+
+ 
