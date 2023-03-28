@@ -1,19 +1,23 @@
 ## Description
-<!--- Describe your changes in detail -->
+Please provide a brief description of the changes you made.
 
 ## Motivation and Context
-<!--- Why is this change required? What problem does it solve? -->
-<!--- If it fixes an open issue, please link to the issue here. -->
+Why is this change required? What problem does it solve?
+If it fixes an open issue, please link to the issue here. 
 
 ## How Has This Been Tested?
-<!--- Please describe in detail how you tested your changes. -->
-<!--- Include details of your testing environment, the tests you ran to -->
-<!--- see how your change affects other areas of the code, etc. -->
+Please describe in detail how you tested your changes.
+Include details of your testing environment, the tests you ran to
+see how your change affects other areas of the code, etc.
 
 ## Screenshots (if appropriate):
 
+If you have made changes that are visible in the user interface, please provide screenshots to demonstrate them.
+
 ## Types of Changes
-<!--- What types of changes does your code introduce? Put an `x` in all the boxes that apply: -->
-- [ ] Bug fix (non-breaking change that fixes an issue)
-- [ ] New feature (non-breaking change that adds functionality)
-- [ ] Breaking change (fix or feature that would cause existing functionality to not work as expected)
+Please check the following items that apply to this pull request:
+- [ ] I have followed the project's coding conventions and style guidelines.
+- [ ] I have included relevant documentation and tests for my changes.
+- [ ] I have tested my changes and verified that they work as expected. expected)
+- [ ] My changes do not introduce any new linting errors or warnings.
+- [ ] My changes do not break any existing functionality.
