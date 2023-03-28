@@ -1,30 +1,25 @@
 # Submit a feature request or bug report
 
-Before you submit an issue, check to see if it has [already been reported][1].
-Any questions should be directed to @{user}.
+Before you submit an issue, check to see if it has already been reported.
+Any questions should be directed to me.
 
 ---
 
-Replace any "X" below with your information.
-
 ## Development environment
 
-- Operating system: X
-- Browser: X
-- Software version: X
+- Operating system: MacOS
+- Browser: Safari
+- Software version: not important
 
 ## Current behavior
 
-Include screenshots if possible.
-
-X
+If you are experiencing an issue, please describe the behavior you are seeing instead.
 
 ## Expected behavior
 
-X
+If you are experiencing an issue, please describe the behavior you were expecting to see.
 
 ## Steps to reproduce
 
-Only fill this in if you are filing a bug report.
+If you are experiencing an issue, please provide steps to reproduce it.
 
-1. X
